@@ -3,7 +3,7 @@
         "id": 1,
         "img": "https://i.ibb.co/r5vppWy/Rectangle-2.png",
         "title": "Introduction to Python Programming",
-        "description": "Learn the fundamentals of Python programming in this comprehensive course. Covering topics such as data types, control structures, and object-oriented programming, this course will equip you with the skills to write Python code fluently. With 40 hours of video content and interactive quizzes, you'll gain 4 credits upon completion.",
+        "description": "Learn the fundamentals of Python programming in this comprehensive course.",
         "price": 49.99,
         "credit": 4
       },
@@ -11,7 +11,7 @@
         "id": 2,
         "img": "https://i.ibb.co/f9X3ZwK/Rectangle-2-1.png",
         "title": "JavaScript Web Development",
-        "description": "Master JavaScript and its application in web development. Dive deep into topics like DOM manipulation, AJAX, and ES6 features. This course includes 35 hours of video lectures, hands-on projects, and awards you 3 credits upon finishing. Get started today!",
+        "description": "Master JavaScript and its application in web development. Dive deep into topics like DOM manipulation.",
         "price": 59.99,
         "credit": 3
       },
@@ -19,7 +19,7 @@
         "id": 3,
         "img": "https://i.ibb.co/w487VFG/Rectangle-2-2.png",
         "title": "Data Science with R",
-        "description": "Explore the world of data science using the R programming language. Analyze datasets, create visualizations, and perform statistical analysis. This course offers 50 hours of content, real-world projects, and grants you 5 credits upon completion.",
+        "description": "Explore the world of data science using the R programming language. Analyze datasets, create visualizations.",
         "price": 69.99,
         "credit": 5
       },
@@ -27,7 +27,7 @@
         "id": 4,
         "img": "https://i.ibb.co/s6kKfPJ/Rectangle-2-3.png",
         "title": "Java Enterprise Development",
-        "description": "Build scalable enterprise applications with Java. Cover topics like JEE, Spring Framework, and Hibernate. With 55 hours of instruction, practical exercises, and 6 credits, this course prepares you for real-world Java development.",
+        "description": "Build scalable enterprise applications with Java. Cover topics like JEE, Spring Framework, and Hibernate. With 55 hours.",
         "price": 79.99,
         "credit": 6
       },
@@ -35,7 +35,7 @@
         "id": 5,
         "img": "https://i.ibb.co/sjPxKSg/Rectangle-2-4.png",
         "title": "C++ Programming Masterclass",
-        "description": "Become a C++ expert with this comprehensive masterclass. Learn about classes, templates, and memory management. With 60 hours of content, hands-on coding, and 7 credits, you'll excel in C++ development.",
+        "description": "Become a C++ expert with this comprehensive masterclass. Learn about classes, templates, and memory management. With 60 hours of content.",
         "price": 89.99,
         "credit": 7
       },
@@ -43,7 +43,7 @@
         "id": 6,
         "img": "https://i.ibb.co/sjPxKSg/Rectangle-2-4.png",
         "title": "Full Stack Web Development",
-        "description": "Take your web development skills to the next level. Cover both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Express) technologies. This course offers 70 hours of video content, projects, and 8 credits.",
+        "description": "Take your web development skills to the next level. Cover both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Express) technologies.",
         "price": 99.99,
         "credit": 8
       },
@@ -51,7 +51,7 @@
         "id": 7,
         "img": "https://i.ibb.co/W58tTGr/Rectangle-2-6.png",
         "title": "Mobile App Development with Flutter",
-        "description": "Build cross-platform mobile apps using Flutter and Dart. Create engaging UIs and integrate with APIs. With 45 hours of instruction, practical app development, and 4 credits, you'll be a mobile app developer in no time.",
+        "description": "Build cross-platform mobile apps using Flutter and Dart. Create engaging UIs and integrate with APIs. With 45 hours of instruction.",
         "price": 79.99,
         "credit": 4
       },
@@ -59,7 +59,7 @@
         "id": 8,
         "img": "https://i.ibb.co/bNZNjsy/Rectangle-3.png",
         "title": "Machine Learning Fundamentals",
-        "description": "Delve into the world of machine learning. Understand algorithms, model training, and data preprocessing. This course comprises 40 hours of lectures, hands-on projects, and grants you 5 credits upon completion.",
+        "description": "Delve into the world of machine learning. Understand algorithms, model training, and data preprocessing. This course comprises 40 hours of lectures.",
         "price": 69.99,
         "credit": 5
       },
@@ -67,7 +67,7 @@
         "id": 9,
         "img": "https://i.ibb.co/WcGdt6P/Rectangle-3-1.png",
         "title": "Ethical Hacking and Cybersecurity",
-        "description": "Learn ethical hacking techniques and secure systems against cyber threats. Gain skills in penetration testing, cryptography, and network security. This course includes 50 hours of content, practical labs, and awards you 6 credits.",
+        "description": "Learn ethical hacking techniques and secure systems against cyber threats. Gain skills in penetration testing, cryptography, and network security.",
         "price": 89.99,
         "credit": 6
       }
