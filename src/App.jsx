@@ -1,6 +1,4 @@
 
-
-
 import { useState } from 'react'
 import './App.css'
 import Blogs from './component/Blogs/Blogs'
@@ -9,20 +7,22 @@ import Header from './component/header/Header'
 
 function App() {
   const [bookmarks, setBookmarks]=useState([])
+  // const [remaining,setRemaining]=useState([])
 
-  const handleBookmark =() =>{
-    console.log('click');
+  const handleBookmark =(blog) =>{
+    console.log('click its',blog);
+   setBookmarks([...bookmarks,{blog}])
   }
 
   return (
     <>
       
      <Header></Header>
-     <div className='flex max-w-7xl mx-auto gap-4'>
+     <div className='flex max-w-7xl mx-auto gap-4 bg-[#F3F3F3]'>
      <Blogs
      handleBookmark={handleBookmark}
      ></Blogs>
-     <Bookmarks></Bookmarks>
+     <Bookmarks bookmarks={bookmarks}></Bookmarks>
      </div>
       
      
