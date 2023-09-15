@@ -4,6 +4,9 @@ import './App.css'
 import Blogs from './component/Blogs/Blogs'
 import Bookmarks from './component/Bookmarks/Bookmarks'
 import Header from './component/header/Header'
+// tost 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [bookmarks, setBookmarks]=useState([])
@@ -16,7 +19,8 @@ function App() {
     const isExist= selectedBlog.find((item)=>item.id==blog.id)
     let cost = blog.credit;
     if(isExist){
-      return alert('already Booked')
+      return toast("Already selected!",{position:toast.POSITION.TOP_CENTER
+      })
     }else{
       selectedBlog.forEach((item)=>{
         cost=cost +item.credit;
@@ -24,7 +28,8 @@ function App() {
     }
     const remaining=20-cost;
     if(cost > 20){
-      return alert('you dont crouse limit')
+      return toast('Crouse your Credit limit',{position:toast.POSITION.TOP_CENTER
+      })
     }else{
       setRemainig(remaining)
     }
@@ -46,7 +51,7 @@ function App() {
      remainig={remainig}
      ></Bookmarks>
      </div>
-      
+      <ToastContainer></ToastContainer>
      
     </>
   )

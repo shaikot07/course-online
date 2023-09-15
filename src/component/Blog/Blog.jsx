@@ -19,6 +19,7 @@ const Blog = ({blog,handleBookmark}) => {
                   </div>
                   <div className='text-center mt-3'>
                   <button onClick={() => handleBookmark(blog)} className='bg-sky-500 py-2 px-8 text-white rounded-xl '>Select</button>
+                  
                   </div>
                   
             </div>

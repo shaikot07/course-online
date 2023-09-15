@@ -6,9 +6,9 @@ const Bookmark =({bookmark}) => {
       return (
             <div className='p-2 '>
                   
-                 <ol>
+                 <ul className='list-decimal'>
                   <li>{bookmark.blog.title}</li>
-                 </ol>
+                 </ul>
             </div>
       );
 };
