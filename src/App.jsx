@@ -8,9 +8,28 @@ import Header from './component/header/Header'
 function App() {
   const [bookmarks, setBookmarks]=useState([])
   // const [remaining,setRemaining]=useState([])
+  const [selectedBlog, setSelectedBlog]= useState([])
+  const [totalCost,setTotalCost] = useState(0)
+  const [remainig,setRemainig] =useState(0)
 
   const handleBookmark =(blog) =>{
-    console.log('click its',blog);
+    const isExist= selectedBlog.find((item)=>item.id==blog.id)
+    let cost = blog.credit;
+    if(isExist){
+      return alert('already Booked')
+    }else{
+      selectedBlog.forEach((item)=>{
+        cost=cost +item.credit;
+      })
+    }
+    const remaining=20-cost;
+    if(cost > 20){
+      return alert('you dont crouse limit')
+    }else{
+      setRemainig(remaining)
+    }
+    setTotalCost(cost)
+    setSelectedBlog([...selectedBlog,blog])
    setBookmarks([...bookmarks,{blog}])
   }
 
@@ -22,7 +41,10 @@ function App() {
      <Blogs
      handleBookmark={handleBookmark}
      ></Blogs>
-     <Bookmarks bookmarks={bookmarks}></Bookmarks>
+     <Bookmarks bookmarks={bookmarks}
+     totalCost={totalCost}
+     remainig={remainig}
+     ></Bookmarks>
      </div>
       
      
