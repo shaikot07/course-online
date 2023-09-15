@@ -42,7 +42,7 @@ function App() {
     <>
       
      <Header></Header>
-     <div className='flex max-w-7xl mx-auto gap-4 bg-[#F3F3F3]'>
+     <div className='md:flex max-w-7xl lg:mx-auto gap-4 bg-[#F3F3F3] md:mx-8'>
      <Blogs
      handleBookmark={handleBookmark}
      ></Blogs>

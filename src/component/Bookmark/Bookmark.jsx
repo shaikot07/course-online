@@ -2,14 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Bookmark =({bookmark}) => {
+      console.log(bookmark);
       
       return (
-            <div className='p-2 '>
-                  
-                 <ul className='list-decimal'>
-                  <li>{bookmark.blog.title}</li>
-                 </ul>
-            </div>
+            <li className='list-decimal ml-3'>{bookmark.blog.title}</li>
       );
 };
 

@@ -9,7 +9,7 @@ const Blogs = ({handleBookmark}) => {
             .then(data => setBlogs(data))
       },[])
       return (
-            <div className='grid grid-cols-3 mt-8 gap-3 '>
+            <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 mt-8 sm:gap-0 md:gap-3 lg:ml-0 sm:ml-15 lg:gap-4 '>
                  
                  {
                   blogs.map(blog => <Blog key={blog.id}
